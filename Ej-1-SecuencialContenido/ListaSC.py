@@ -85,7 +85,7 @@ class ListaSC:
                 bandera= True
             else:
                 i+=1
-            if i < self.__cant:
+            if i < self.__cant: #Revisar
                 indice= i
         return indice
 
