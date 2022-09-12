@@ -24,7 +24,7 @@ class ListaS:
                     self.__items.resize(self.__dimension)
                     self.__items[posicion]=dato
                 else: #Para mover los valores
-                    for i in range(self.__cant-posicion+1): #Quedaría un rango desde 0 hasta por ejemplo 3 si el resultado es 4
+                    for i in range(self.__cant-posicion+1): 
                         self.__items[self.__cant-i+1]= self.__items[self.__cant-i] #Aca se hace el cambio
                     self.__items[posicion]=dato
             self.__cant+=1
