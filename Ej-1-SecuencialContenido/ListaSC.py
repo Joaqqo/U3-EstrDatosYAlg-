@@ -32,7 +32,7 @@ class ListaSC:
     def Suprimir(self, posicion):
         posicion=posicion-1
         if posicion < self.__cant and posicion >= 0: #Para que no ingresen una posición errónea
-            if self.Vacia():
+            if self.Vacia(): #Es necesario?
                 print("Lista vacía")
             else:
                 for i in range(posicion, self.__cant-1): #Rango entre la posición ingresada y la cantidad menos 1
